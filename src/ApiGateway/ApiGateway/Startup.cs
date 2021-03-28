@@ -29,7 +29,9 @@ namespace ApiGateway
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOcelot().AddConsul();
+            services.AddOcelot()
+                .AddConsul();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -58,7 +60,8 @@ namespace ApiGateway
                 endpoints.MapControllers();
             });
 
-            app.UseOcelot().Wait();
+            app.UseOcelot()
+                .Wait();
 
         }
     }

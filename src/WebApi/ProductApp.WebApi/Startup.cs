@@ -13,21 +13,28 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ProductApp.Config;
 
 namespace ProductApp.ProductWebApi
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
+        private ConfigurationSetting _configurationSetting;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            _configurationSetting = services.RegisterConfiguration(Configuration);
+            services.AddConsulConfig(_configurationSetting);
+
             services.AddPersistenServices();
             services.AddApplicationServices();
             services.AddControllers();
@@ -46,6 +53,8 @@ namespace ProductApp.ProductWebApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProductApp.WebApi v1"));
             }
+
+            app.UseConsul(_configurationSetting);
 
             app.UseHttpsRedirection();
 

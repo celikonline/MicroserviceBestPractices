@@ -1,0 +1,12 @@
+C:\git\src\Core\ProdutApp.Domain\bin\Debug\net5.0\ProdutApp.Domain.deps.json
+C:\git\src\Core\ProdutApp.Domain\bin\Debug\net5.0\ProdutApp.Domain.dll
+C:\git\src\Core\ProdutApp.Domain\bin\Debug\net5.0\ref\ProdutApp.Domain.dll
+C:\git\src\Core\ProdutApp.Domain\bin\Debug\net5.0\ProdutApp.Domain.pdb
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.AssemblyInfoInputs.cache
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.AssemblyInfo.cs
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.csproj.CoreCompileInputs.cache
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.dll
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ref\ProdutApp.Domain.dll
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.pdb
+C:\git\src\Core\ProdutApp.Domain\obj\Debug\net5.0\ProdutApp.Domain.csprojAssemblyReference.cache

@@ -11,10 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Infrastructure\ProductApp.Persistence\ProductApp.Persistence.csproj" />
     <ProjectReference Include="..\..\Core\ProductApp.Application\ProductApp.Application.csproj" />
     <ProjectReference Include="..\..\Core\ProductApp.Config\ProductApp.Config.csproj" />
     <ProjectReference Include="..\..\Core\ProdutApp.Domain\ProdutApp.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ProductApp.Persistence\ProductApp.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

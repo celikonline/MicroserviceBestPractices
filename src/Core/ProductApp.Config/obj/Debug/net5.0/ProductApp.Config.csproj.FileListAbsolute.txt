@@ -1,0 +1,11 @@
+C:\git\src\Core\ProductApp.Config\bin\Debug\net5.0\ProductApp.Config.deps.json
+C:\git\src\Core\ProductApp.Config\bin\Debug\net5.0\ProductApp.Config.dll
+C:\git\src\Core\ProductApp.Config\bin\Debug\net5.0\ref\ProductApp.Config.dll
+C:\git\src\Core\ProductApp.Config\bin\Debug\net5.0\ProductApp.Config.pdb
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.AssemblyInfoInputs.cache
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.AssemblyInfo.cs
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.csproj.CoreCompileInputs.cache
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.dll
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ref\ProductApp.Config.dll
+C:\git\src\Core\ProductApp.Config\obj\Debug\net5.0\ProductApp.Config.pdb
