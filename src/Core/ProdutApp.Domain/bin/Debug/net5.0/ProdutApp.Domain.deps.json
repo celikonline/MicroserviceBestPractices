@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ProdutApp.Domain/1.0.0": {
+        "runtime": {
+          "ProdutApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProdutApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
